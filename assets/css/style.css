@@ -1,6 +1,5 @@
 :root {
   --primary-color: whitesmoke;
-  /* --secondary-color: #508dad; */
   --secondary-color: #7fb0ca;
   --tertiary-color: dsf#818891;
   --shadow-color: rgba(0, 0, 0, 0.5);
@@ -23,7 +22,7 @@ body {
 
 header {
   background-color: var(--secondary-color);
-  padding: 20px 35px;
+  padding: 15px 15px;
   margin: 10px;
   justify-content: space-between;
   display: flex;
@@ -35,9 +34,8 @@ header h1 {
   color: var(--primary-color);
   box-shadow: 0 0 3px var(--primary-color);
   background-color: #61879b;
-  padding: 10px 30px;
+  padding: 30px 20px 10px;
   font-weight: bold;
-  margin: 0;
   font-size: 30px;
   text-shadow: 0 0 10px var(--shadow-color);
 }
@@ -45,10 +43,11 @@ header h1 {
 header a {
   text-decoration: none;
   color: var(--primary-color);
+  
 }
 
 header nav {
-  margin: 7px 0;
+  margin: 30px 10px 0 60px;
 }
 
 header nav ul {
@@ -83,66 +82,95 @@ header nav ul li a:hover {
   /* font-size: 55px; */
   color: var(--primary-color);
   text-shadow: 0 0 10px var(--shadow-color);
-  padding: 20px 20px 30px 320px;
+  padding: 20px 20px 30px 620px;
+  box-shadow: 0 0 10px white;
 }
 
 /* HERO STYLES END */
 
+/* MAIN SECTION */
+main {
+  /* display: flex; */
+}
+
 /* ABOUT SECTION STYLES START */
 .about {
-  text-shadow: 0 0 10px var(--shadow-color);
-  padding: 200px 20px 20px 20px;
-  width: 30%;
+  display: flex;
+  box-shadow: 0 0 10px var(--shadow-color);
+  margin: 10px;
+  /* margin-top: 0px; */
+  /* text-shadow: 0 0 10px var(--shadow-color); */
+  /* padding: 100px 40px 40px 30px; */
+  /* width: 30%; */
+  /* padding:  30px; */
+  /* padding: 100px 10px 7px 20px; */
 }
 
 .about h2 {
   border-right: solid var(--primary-color);
-  padding: 30px 10px 7px 20px;
+  text-shadow: 0 0 10px var(--shadow-color);
+  padding: 10px 20px 100px 20px;
+  /* padding: 0px 10px 7px 20px; */
   text-align: right;
-  display: flex;
-  flex-wrap: wrap;
+  box-shadow: 0 0 10px red;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
 }
 
 .about-img {
-  width: 10px;
-  margin-left: 20px;
-  /* padding-right: 7px; */
-
+  padding: 10px;
+  /* margin: 10px; */
+  box-shadow: 0 0 10px red;
+  /* margin: 10px 10px 60px 10px; */
+  /* display: flex; */
+  /* height: 80px; */
+  /* float: right; */
+    /* padding: 20px; */
 }
 
 .about p {
-  /* float: right; */
-  padding: 0 150px 20px 0;
-  display: flex;
-  width: 30%;
+  /* border-right: solid var(--primary-color); */
+  /* margin: 20px 20px 10px 10px; */
+  text-shadow: 0 0 6px var(--shadow-color);
+  padding: 20px 30px 0 20px;
+  box-shadow: 0 0 10px green;
+  /* width: 60%; */
 }
 /* ABOUT  SECTION STYLES END */
 
 /* WORK SECTION STYLES START */
 .work {
-  /* display: flex; */
-  padding: 0px 20px 40px 20px;
+  display: flex;
+  /* padding: 0px 20px 40px 520px; */
+  
+  /* margin: auto; */
+}
+
+.work-title h2 {
+  /* padding: 7px; */
+  /* padding: 100px 10px 7px 20px; */
+  text-align: right;
   text-shadow: 0 0 10px var(--shadow-color);
-  margin: auto;
-}
-
-.work img:hover {
-    opacity: 70%;
-}
-
-.work h2 {
   border-right: solid var(--primary-color);
   padding: 0px 20px 40px 20px;
-  margin: auto;
+  /* margin: auto; */
 }
 
 .prime-work img {
   /* float: left; */
-  width: 60%;
+  width: 50%;
   margin-left: 300px;
   box-shadow: var(--deep-box) var(--shadow-color);
 }
-
+.prime-img:hover {
+  opacity: 70%;
+}
+.other-work {
+  display: flex;
+  padding: 0px 20px 40px 520px;
+  text-shadow: 0 0 10px var(--shadow-color);
+  margin: auto;
+}
 .other-work img {
   /* float: right; */
   width: 33.33%; 
@@ -151,7 +179,7 @@ header nav ul li a:hover {
 }
 
 /* WORK SECTION STYLES END */
-
+/* MAIN SECTION */
 /* FOOTER STYLES START */
 footer {
   color: var(--secondary-color);
@@ -228,20 +256,8 @@ footer a:hover {
     width: 100%;
   }
 
-  .hero-cta, .hero-form {
-    width: 100%;
-  }
-  
-  .hero-cta {
-    text-align: center;
-  }
-
   .section-title {
     width: 80%;
-  }
-  
-  .trainer {
-    flex: 0 70%;
   }
   
   .contact-info iframe{
@@ -308,7 +324,4 @@ footer a:hover {
     flex: 0 100%;
   }
 
-  .contact-form {
-    order: 3;
-  }
 }
