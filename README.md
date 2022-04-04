@@ -1,7 +1,7 @@
 # **Project Portfolio**
 
 ## **The Repository**
-### This respository ("generation-password"):  https://github.com/loriful/pretty-please-portfolio
+### This respository:  https://github.com/loriful/pretty-please-portfolio
 ### Deployment:  https://loriful.github.io/pretty-please-portfolio/
 
 
@@ -11,6 +11,8 @@
 - Project portfolio
 
 - Complete Challenge 02
+
+- Use HTML and CSS
 
 
 ## **The Site View**
