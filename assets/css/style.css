@@ -43,23 +43,23 @@ header h1 {
 header a {
   text-decoration: none;
   color: var(--primary-color);
-  
 }
 
 header nav {
-  margin: 30px 10px 0 60px;
+  margin: 30px 10px 0 0;
 }
 
 header nav ul {
   display: flex;
   flex-wrap: wrap;
+  padding: 10px 10px 0 40px;
   justify-content: space-between;
   align-items: center;
   list-style: none;
 }
 
 header nav ul li a {
-  padding: 10px 15px;
+  padding: 20px;
   font-weight: lighter;
   font-size: 1.55vw;
   text-shadow: 0 0 10px var(--shadow-color);
@@ -79,107 +79,82 @@ header nav ul li a:hover {
 
 .hero-text {
   font-style: italic;
-  /* font-size: 55px; */
   color: var(--primary-color);
   text-shadow: 0 0 10px var(--shadow-color);
   padding: 20px 20px 30px 620px;
-  box-shadow: 0 0 10px white;
+  width: 100%;
 }
-
 /* HERO STYLES END */
-
-/* MAIN SECTION */
-main {
-  /* display: flex; */
-}
 
 /* ABOUT SECTION STYLES START */
 .about {
+  color: var(--primary-color);
   display: flex;
-  box-shadow: 0 0 10px var(--shadow-color);
   margin: 10px;
-  /* margin-top: 0px; */
-  /* text-shadow: 0 0 10px var(--shadow-color); */
-  /* padding: 100px 40px 40px 30px; */
-  /* width: 30%; */
-  /* padding:  30px; */
-  /* padding: 100px 10px 7px 20px; */
 }
 
 .about h2 {
-  border-right: solid var(--primary-color);
+  border-right: solid 3px var(--primary-color);
   text-shadow: 0 0 10px var(--shadow-color);
-  padding: 10px 20px 100px 20px;
-  /* padding: 0px 10px 7px 20px; */
+  padding: 20px 20px 0 22px;
   text-align: right;
-  box-shadow: 0 0 10px red;
-  /* display: flex; */
-  /* flex-wrap: wrap; */
 }
 
 .about-img {
-  padding: 10px;
-  /* margin: 10px; */
-  box-shadow: 0 0 10px red;
-  /* margin: 10px 10px 60px 10px; */
-  /* display: flex; */
-  /* height: 80px; */
-  /* float: right; */
-    /* padding: 20px; */
+  padding: 30px;
 }
 
 .about p {
-  /* border-right: solid var(--primary-color); */
-  /* margin: 20px 20px 10px 10px; */
-  text-shadow: 0 0 6px var(--shadow-color);
-  padding: 20px 30px 0 20px;
-  box-shadow: 0 0 10px green;
-  /* width: 60%; */
+  padding: 40px 30px 0 0;
 }
 /* ABOUT  SECTION STYLES END */
 
 /* WORK SECTION STYLES START */
 .work {
+  color: var(--primary-color);
   display: flex;
-  /* padding: 0px 20px 40px 520px; */
-  
-  /* margin: auto; */
+  flex-wrap: wrap;
 }
 
-.work-title h2 {
-  /* padding: 7px; */
-  /* padding: 100px 10px 7px 20px; */
-  text-align: right;
+.work h2 {
+  border-right: solid 3px var(--primary-color);
   text-shadow: 0 0 10px var(--shadow-color);
-  border-right: solid var(--primary-color);
-  padding: 0px 20px 40px 20px;
-  /* margin: auto; */
+  padding: 20px 20px 0 50px;
+  text-align: right;
 }
 
-.prime-work img {
-  /* float: left; */
-  width: 50%;
-  margin-left: 300px;
+h3, h4 {
+  padding: 0 30px; 
+}
+
+.prime-img {
+  max-width: 500px;
+  height: auto;
+  padding: 8px;
   box-shadow: var(--deep-box) var(--shadow-color);
 }
 .prime-img:hover {
   opacity: 70%;
 }
+
 .other-work {
-  display: flex;
-  padding: 0px 20px 40px 520px;
-  text-shadow: 0 0 10px var(--shadow-color);
-  margin: auto;
-}
-.other-work img {
-  /* float: right; */
-  width: 33.33%; 
+  margin-top: 10px;
   padding: 5px;
   box-shadow: var(--deep-box) var(--shadow-color);
 }
 
+.img-1:hover {
+  opacity: 70%;
+}
+.img-2:hover {
+  opacity: 70%;
+}
+.img-3:hover {
+  opacity: 70%;
+}
+
 /* WORK SECTION STYLES END */
-/* MAIN SECTION */
+
 /* FOOTER STYLES START */
 footer {
   color: var(--secondary-color);
@@ -188,15 +163,12 @@ footer {
   display: flex;
   flex-wrap: wrap;
   padding: 40px 40px;
-  /* padding: 40px 40px; */
 }
 
 
 footer h2 {
   border-right: solid var(--secondary-color);
-  /* padding: 30px 10px; */
   font-weight: bold;
-  /* margin: ; */
   text-align: right;
   width: 10%;
   padding-right: 20px;
@@ -217,10 +189,6 @@ footer ul li a {
   color: var(--secondary-color);
   font-size: 18px;
 }
-
-/* footer a { */
-  /* padding: 30px 80px 0 50px; */
-/* } */
 
 footer a:hover {
   color: midnightblue;
@@ -323,5 +291,4 @@ footer a:hover {
   .contact-info > * {
     flex: 0 100%;
   }
-
 }
