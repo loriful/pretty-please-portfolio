@@ -190,9 +190,9 @@ footer ul li a {
   font-size: 18px;
 }
 
-footer a {
+/* footer a { */
   /* padding: 30px 80px 0 50px; */
-}
+/* } */
 
 footer a:hover {
   color: midnightblue;
