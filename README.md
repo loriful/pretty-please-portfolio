@@ -10,7 +10,7 @@
 
 - Project portfolio
 
-- Complete Challenge 02
+- Highlight projects
 
 - Use HTML and CSS
 
@@ -18,7 +18,7 @@
 ## **The Site View**
 
 <p align="center">
-  <img src="./assets/images/mock-up.png" alt="Web Page Mock-UP" >
+  <img src="./assets/images/mock-up.png" alt="Web Page Mock-UP" ></a>
 </p>
 
 ## **Credits**
